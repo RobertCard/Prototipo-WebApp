@@ -1,0 +1,189 @@
+body{
+    background-image: url(https://steamuserimages-a.akamaihd.net/ugc/831329771678673548/49C66203D4484F804076D9E21376CE55F8BC2DFE/);
+    background-size: cover;
+    background-repeat:no-repeat;
+
+    height: 100vh;    
+    padding: 0;
+    margin: 0;    
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
+
+/**/
+
+/**/
+
+/**/
+
+/*Radio Styles*/
+
+.cc-selector input{
+    margin:0;padding:0;
+    -webkit-appearance:none;
+       -moz-appearance:none;
+            appearance:none;
+}
+
+.IconRain{
+    background-image:url(https://icons-for-free.com/iconfiles/png/512/rain+icon-1320186915856403745.png);
+}
+.IconStorm{
+    background-image:url(https://static.thenounproject.com/png/810790-200.png);
+}
+.IconNight{
+    background-image:url(https://cdn.iconscout.com/icon/free/png-256/moon-456-433595.png);
+}
+.IconForest{
+    background-image:url(https://www.killarneynationalpark.ie/wp-content/uploads/2017/12/Woods.png);
+}
+.IconSea{
+    background-image:url(https://cdn4.iconfinder.com/data/icons/dot/256/ship_sea_ocean.png);
+}
+.IconGame{
+    background-image:url(https://cdn.iconscout.com/icon/free/png-256/games-2375477-1989434.png);
+}
+
+.cc-selector input:active +.option-cc{opacity: .9;}
+
+.cc-selector input:checked +.option-cc{
+    -webkit-filter: none;
+       -moz-filter: none;
+            filter: none;                    
+}
+
+.option-cc{
+    cursor:pointer;
+    background-size:contain;
+    background-repeat:no-repeat;
+    display:inline-block;
+    width:100px;height:70px;
+    -webkit-transition: all 100ms ease-in;
+       -moz-transition: all 100ms ease-in;
+            transition: all 100ms ease-in;
+    -webkit-filter: brightness(1.8) grayscale(1) opacity(.5);
+       -moz-filter: brightness(1.8) grayscale(1) opacity(.5);
+            filter: brightness(1.8) grayscale(1) opacity(.5);
+}
+
+.option-cc:hover{
+    -webkit-filter: brightness(1.2) grayscale(.5) opacity(.9);
+       -moz-filter: brightness(1.2) grayscale(.5) opacity(.9);
+            filter: brightness(1.2) grayscale(.5) opacity(.9);
+}
+
+/**/
+
+/**/
+
+/**/
+
+/*Change Backgrounds*/
+
+.forest{
+    background-image: url('https://lh6.googleusercontent.com/proxy/Wv7Jf1BcDhp9EDOaNX7lTg_f4DZLKYOV3hD3AJW7wm0L9XRKBYWNrkwkO6Om7ZFNq0wC4bDCBE6uBjvjkK1I_89hU_UBP-VbdNICNu1qUYAY2HzW1K2w0dPm3tTTOtxr');
+}
+
+.rain{
+    background-image: url('https://i1.wp.com/68.media.tumblr.com/d2ee199c2ab9ddd78a614afbf5ba33d5/tumblr_o2kq9iBzcU1s7fey2o1_500.gif');
+}
+
+.game{
+    background-image: url('https://cdna.artstation.com/p/assets/images/images/016/476/952/original/csilla-rodonyi-underwater-019.gif?1552322340');
+
+    
+}
+
+.night{
+    background-image: url('https://i2.wp.com/cdna.artstation.com/p/assets/images/images/026/807/358/original/stefanie-grunwald-animation-4x.gif?w=950&ssl=1');
+
+    
+}
+
+.storm{
+    background-image: url('https://64.media.tumblr.com/0a91cc5da8247e31795f1a980f01bf75/tumblr_pq22u2f8c01xvoqyho1_1280.gifv');
+
+    
+}
+
+.sea{
+    background-image: url('https://data.whicdn.com/images/182008200/original.gif');
+
+    
+}
+
+
+/**/
+
+/**/
+
+/**/
+
+/*Styles*/
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;    
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: monospace;
+}
+
+header{
+    top: 0;     
+    margin-left: auto;
+    margin-right: auto;   
+    width:fit-content;    
+    white-space: nowrap;
+    overflow: hidden;
+
+    text-align: center;
+    text-overflow: ellipsis;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+    color: white;
+    font-family: 'Pacifico', cursive;
+    font-size: xx-large;
+
+    
+}
+
+a:visited{
+    color: white;
+}
+
+.sel{
+    margin: 0;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;  
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    float:right; 
+}
+
+/*Cellphone Styles*/
+
+@media only screen and (max-width: 769px){
+    
+    .sel{
+        margin: 0;
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;  
+        top: 50%;
+        left: 55%;
+        transform: translate(-50%, -50%);
+        float:right;    
+    }
+
+
+}

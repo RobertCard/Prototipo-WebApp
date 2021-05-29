@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<script src="script.js"></script>
+<link rel="stylesheet" href="stylesheet.css">
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+<link rel="apple-touch-icon" sizes="180x180" href="Icons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="Icons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="Icons/favicon-16x16.png">
+<link rel="manifest" href="site.webmanifest">
+
+    <head>
+        <title>Soundzzz</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body id="page_body">
+    <audio id="home" src="audio/Home.mp3" loop="loop"></audio>
+
+        <header>
+            <label onclick="stopAll(); home()">-Soundzzz-</label>
+        </header>
+
+        <!--Div responsible for the alternatives-->
+        <div class="cc-selector sel">
+
+            <input id="IconRain" type="radio" name="theme" value="IconRain" onclick="rain()"/>
+            <label class="option-cc IconRain" for="IconRain"></label>
+
+            <input id="IconStorm" type="radio" name="theme" value="IconStorm" onclick="storm()"/>
+            <label class="option-cc IconStorm" for="IconStorm"></label>
+
+            <input id="IconNight" type="radio" name="theme" value="IconNight" onclick="night()"/>
+            <label class="option-cc IconNight" for="IconNight"></label>
+
+            <input id="IconForest" type="radio" name="theme" value="IconForest" onclick="forest()"/>
+            <label class="option-cc IconForest" for="IconForest"></label>
+
+            <input id="IconSea" type="radio" name="theme" value="IconSea" onclick="sea()"/>
+            <label class="option-cc IconSea" for="IconSea"></label>
+
+            <input id="IconGame" type="radio" name="theme" value="IconGame" onclick="game()"/>
+            <label class="option-cc IconGame" for="IconGame"></label>
+
+        </div>
+
+        <!--Credits and my personal profile-->
+        <footer>
+            Copyright &copy 2021-<script>document.write(year)</script>
+            by 
+            <a href="https://www.linkedin.com/in/robertleandroc/?locale=pt_BR" target="_blank"> Robert Leandro Cardoso</a>
+        </footer>
+    </body>
+</html>
