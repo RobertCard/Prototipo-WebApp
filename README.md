@@ -18,7 +18,7 @@ Por fim, o resultado final ficou como parte do portifolio, sendo uma seleção d
 
 -Indentação bem estruturada.
 
--Design moderno e minimalista.
+-Design simples e organizado.
 
 ## Créditos 
 
