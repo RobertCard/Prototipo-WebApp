@@ -1,7 +1,7 @@
 # Prototipo Soundzzz - Robert Cardoso
 
 ## Proposta, Ideia Inicial e Alterações
-O site vem para substituir a necessidade de instalações ou anuncios expontaneos. A ideia inicial era criar uma espécie de rádio 24 horas, o usuário iria selecionar o canal, e nele iria conter uma playlist do YouTube com o tema determinado para momentos de estudos, trabalho ou até relaxamento. 
+O site vem para substituir a necessidade de instalações ou anuncios expontaneos. A ideia inicial era criar um pseudorádio 24 horas, o usuário iria selecionar o canal, e nele iria conter uma playlist do YouTube com o tema determinado para momentos de estudos, trabalho ou até relaxamento. 
 
 Devido as diretrizes do YouTube, a ideia teve que ser alterada, visto que é ilegal rodar a API do YouTube da forma que havia sido planejado. 
 Mais informações: https://developers.google.com/youtube/terms/api-services-terms-of-service
