@@ -14,7 +14,7 @@ let AudioRain = new Audio('audio/Rain.mp3');
 let AudioGame = new Audio('audio/Game.mp3');
 let AudioForest = new Audio('audio/Forest.mp3');
 let AudioSea = new Audio('audio/Sea.mp3');
-let AudioHome = new Audio('audio/Home.mp3');
+//let AudioHome = new Audio('audio/Home.mp3');
 
 //Stop Audios
 function stopAll(){
@@ -24,15 +24,17 @@ function stopAll(){
     AudioNight.pause();
     AudioSea.pause();
     AudioStorm.pause();
-    AudioHome.pause();
+    //AudioHome.pause();
 }
 
+/*
 function home(){
     stopAll();
     AudioHome.play();
     document.querySelector('input[name="theme"]:checked').checked = false;
     document.getElementById('page_body').className="body"; 
 }
+*/
 
 //OnClick Imgs
 function night(){
